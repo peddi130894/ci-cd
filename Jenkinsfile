@@ -26,4 +26,5 @@ node('master')
         input message: 'waiting for approval from DM', submitter: 'shanker'
         sh 'scp /home/ubuntu/.jenkins/workspace/pipeline/webapp/target/webapp.war ubuntu@172.31.27.190:/var/lib/tomcat9/webapps/myprod.war'
     }
+    
 }
